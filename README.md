@@ -32,3 +32,5 @@ ng  new
 npm install
 
 ng  serve -o
+
+aplicando un  nuevo cambio
