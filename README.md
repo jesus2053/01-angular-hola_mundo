@@ -35,4 +35,10 @@ ng  serve -o
 
 aplicando un  nuevo cambio
 
+
 sdsd
+
+ss
+
+estos es nuevo
+
