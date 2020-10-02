@@ -36,3 +36,5 @@ ng  serve -o
 aplicando un  nuevo cambio
 
 ss
+
+estos es nuevo
