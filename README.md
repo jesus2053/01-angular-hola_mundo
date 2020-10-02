@@ -1,44 +1,50 @@
-# MyApp
+# 01-Hola-Mundo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
+Este es el primer ejercicio del curso de Angular de cero a experto, en este ejemplo se valido la estructura principal de un proyecto, tambien se crearón los primeros componentes de forma manual y automatica
 
-## Development server
+## Component
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```
+import { Component } from '@angular/core';
 
-## Code scaffolding
+@Component({
+    selector : 'app-header',
+    templateUrl : './header.component.html'
+})
+export class HeaderComponent{
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+}
 
-## Build
+import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component';
+i
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+@NgModule({
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+  
+  ],
+  imports: [],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-## Comandos
-ng  new 
+## Comandos utilizados
+*ng  new 
 
 npm install
 
 ng  serve -o
 
-aplicando un  nuevo cambio
+ng generate component components/footer
 
+ng g  c components/footer
 
-sdsd
-
-ss
-
-estos es nuevo
 
